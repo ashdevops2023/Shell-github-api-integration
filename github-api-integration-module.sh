@@ -11,6 +11,7 @@
 #
 ################################
 
+# This is a usage function to check if a user is passing the required argument or not. 
 if [ ${#@} -lt 2 ]; then
     echo "usage: $0 [your github token] [REST expression]"
     exit 1;
